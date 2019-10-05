@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('bg.jpg');
+  background-attachment: fixed;
+}
+html,body { height: 100%; margin: 0px; padding: 0px; }
+::-webkit-scrollbar { 
+  display: none; 
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.main{
+  display : flex;
+  margin-top: 54px;
+  align-items: 'center'
+}
+.navbar{
+  position:fixed;
+  top:0;
+  width: 100%;
+  z-index: 100;
+}
+.menu{
+  position:fixed;
+  left:0;
+  height: 100%;
+  z-index: 99;
+}
+.notelist{
+  margin-left: 30%;
+}
+.menu .notelist .App{
+  height:100%;
+}
+.note-date{
+  color: brown;
+  font-weight: bold;
+  padding: 8px;
+  position: absolute;
+  top:2px;
+  left:5px;
+}
+.noteText{
+  width: 100%;
+  background-color: floralwhite;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  color: rgb(80, 24, 4);
+  height : 120px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.btn{
+  margin:3px;
+}
+.footer{
+  position : absolute;
+  bottom: 0;
+}
